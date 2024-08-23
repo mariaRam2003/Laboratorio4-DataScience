@@ -10,7 +10,8 @@ El objetivo principal de este laboratorio es desarrollar un modelo de Deep Learn
 ### Estructura del Repositorio
 
 - **`data/`**: Contiene los dos directorios necesarios para acceder a la data de entrenamiento y prueba del dataset PolyMNIST.
-- **`notebooks/`**: Jupyter Notebooks que documentan el proceso de análisis exploratorio, preparación de datos, entrenamiento y evaluación de modelos.
+- **`modelos/`** Contiene los modelos entrenados.
+- **`test/`** Contiene las imágenes realizadas a mano para poder probar los modelos entrenados.
 
 ### Dataset
 
@@ -22,14 +23,14 @@ La data utilizada para este laboratorio se encuentra en el siguiente enlace:
 
 ### Requisitos
 
-- Python 3.x
+- Python 3.8
 - Librerías necesarias: TensorFlow, Keras, NumPy, Pandas, Matplotlib, entre otras (ver `requirements.txt` para detalles).
 
 ### Ejecución
 
 1. Clona este repositorio.
 2. Descarga el dataset desde Kaggle e insértalo en la carpeta `data/`.
-3. Ejecuta los notebooks en `notebooks/` para replicar los resultados o ajustar los modelos según sea necesario.
+3. Ejecuta los notebooks para replicar los resultados o ajustar los modelos según sea necesario.
 
 
 ### Autores
